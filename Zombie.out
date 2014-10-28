@@ -1,0 +1,15 @@
+Job 2295537 started at Fri Oct 3 02:30:39 EST 2014
+Scratch directory /scratch/avoca/2295537 has been allocated
+1 Blue Gene/Q compute nodes have been allocated
+Year   Human   Female   Male   Zombie   Infected
+0      40131    20120  20011        2          0
+1      39614    19878  19736      257          5
+2      38184    19168  19016      608          8
+3      35502    17811  17691      962         13
+4      31581    15876  15705     1399         15
+5      26589    13344  13245     1830         34
+6      20721    10396  10325     2136         26
+7      13158     6574   6584     2480         37
+8       6445     3242   3203     2047         35
+9       2412     1199   1213      930          9
+10      1011      484    527      313          5

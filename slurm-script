@@ -1,0 +1,18 @@
+#!/bin/sh
+# Set a time limit, in either "minutes", "minutes:seconds",
+# "hours:minutes:seconds", "days-hours", "days-hours:minutes" or
+# "days-hours:minutes:seconds".
+# example below is 2 hours
+#SBATCH --time=2:0:0
+# Set the minimum number of nodes required for the job.
+# Here a node is a compute card - sixteen cores. So requesting 16
+# nodes as below will give you a partition with 256 cores.
+#SBATCH --nodes=1
+#
+#SBATCH --job-name="Zombie-Project"
+#
+#SBATCH --output="Zombie.out"
+
+# Here we're asking for each node (16 cores) to run 64 MPI
+# tasks/processes, thus giving us 1024 MPI tasks
+#srun ./Zombie
